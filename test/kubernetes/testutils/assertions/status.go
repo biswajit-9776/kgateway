@@ -302,7 +302,6 @@ func (p *Provider) EventuallyTCPRouteCondition(
 		},
 		timeout...,
 	)
-
 }
 
 // EventuallyTLSRouteCondition checks that provided TLSRoute condition is set to expect.
@@ -357,7 +356,6 @@ func (p *Provider) EventuallyGRPCRouteCondition(
 		},
 		timeout...,
 	)
-
 }
 
 // EventuallyInferencePoolCondition checks that the specified InferencePool condition
@@ -503,5 +501,4 @@ func (p *Provider) EventuallyHTTPListenerPolicyCondition(
 		},
 		timeout...,
 	)
-
 }
